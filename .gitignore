@@ -1,0 +1,5 @@
+*backups/
+fp-info-cache
+*.kical_prl
+*.bak
+*.lck
