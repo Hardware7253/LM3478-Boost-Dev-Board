@@ -5,9 +5,9 @@
 	(uuid "769529fc-3256-40fd-864a-a325b11dd372")
 	(paper "A4")
 	(title_block
-		(title "Power Supply Schematic")
-		(date "2024-06-06")
-		(rev "0.1.1")
+		(title "Boost Converter Dev Board")
+		(date "2025-11-27")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
@@ -2046,9 +2046,9 @@
 		)
 		(uuid c8be6ff2-db82-44c6-99b0-26389d7b20cb)
 	)
-	(text "Python calculators included in the\nproject repo were used for component selection.\n\nPeak switch current: 0.4A\nThe mosfet, inductor, and diode should be\nable to handle this current * 1.5 (>0.6A)\n\nOutput capacitor needs to be low ESR and needs to be rated for atleast 60V\n\nOutput voltage is NOT variable, the potentiometer is only for callibration"
+	(text "Python calculators included in the\nproject repo were used for component selection.\n\nPeak switch current: 0.4A\nThe mosfet, inductor, and diode should be\nable to handle this current * 1.5 (>0.6A)\n\nOutput capacitor needs to be low ESR and needs to be rated for atleast 60V\n\nOutput voltage is NOT variable, the potentiometer is only for callibration\n\nUse temperature stable and +-1% components where possible"
 		(exclude_from_sim no)
-		(at 17.526 54.356 0)
+		(at 17.526 56.134 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2105,7 +2105,7 @@
 		)
 		(uuid "65bc918c-8e26-4992-aaf7-8da6a7179d79")
 	)
-	(text "Crossover: 4760Hz\nPM: 77°\nCrossover Slope: -20.4 dB/dec"
+	(text "Crossover: 5140 Hz\nPM: 79.3°\nCrossover Slope: -20.07 dB/dec"
 		(exclude_from_sim no)
 		(at 87.122 139.446 0)
 		(effects
@@ -3870,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120p"
+		(property "Value" "82p"
 			(at 100.33 109.2199 0)
 			(effects
 				(font
@@ -3888,7 +3888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C18438.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1864236.pdf"
 			(at 96.52 107.95 0)
 			(effects
 				(font
@@ -3906,7 +3906,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C18438"
+		(property "LCSC PART #" "C1864236"
 			(at 96.52 107.95 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120p"
+		(property "Value" "100p"
 			(at 138.43 114.2999 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C18438.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7503509.pdf"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -4051,7 +4051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C18438"
+		(property "LCSC PART #" "C7503509"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -4300,7 +4300,7 @@
 				)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "422"
 			(at 146.05 98.806 90)
 			(effects
 				(font
@@ -4317,7 +4317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49653317.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5204003.pdf"
 			(at 146.05 101.6 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C49653317"
+		(property "LCSC PART #" "C5204003"
 			(at 146.05 101.6 0)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150m"
+		(property "Value" "140m"
 			(at 161.29 118.1099 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C37936.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C37935.pdf"
 			(at 158.75 116.84 0)
 			(effects
 				(font
@@ -5996,7 +5996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C37936"
+		(property "LCSC PART #" "C37935"
 			(at 158.75 116.84 0)
 			(effects
 				(font
