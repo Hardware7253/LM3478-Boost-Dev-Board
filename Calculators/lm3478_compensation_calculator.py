@@ -7,30 +7,30 @@ import sys
 # https://www.ti.com/lit/pdf/snva067
 
 # User parameters 50V
-# v_in = 5
-# v_out = 50 
-# i_out = 30e-3 # Max output current (mA)
-# f = 460e3 # Switching frequency (Hz)
-
-# l = 56e-6 # Inductor inductance (H)
-
-# r_sen = 140e-3 # Current sensing resistor (Ω)
-
-# c_out = 22e-6 # Output cap (F)
-# c_esr = 50e-3 # Output cap equivalent series resistance (Ω)
-
-# User parameters 75V
 v_in = 5
-v_out = 75 
-i_out = 50e-3 # Max output current (mA)
+v_out = 50 
+i_out = 30e-3 # Max output current (mA)
 f = 460e3 # Switching frequency (Hz)
 
 l = 56e-6 # Inductor inductance (H)
 
-r_sen = 75e-3 # Current sensing resistor (Ω)
+r_sen = 140e-3 # Current sensing resistor (Ω)
 
 c_out = 22e-6 # Output cap (F)
-c_esr = 50e-3 # Output cap equivalent series resistance (Ω)
+c_esr = 30e-3 # Output cap equivalent series resistance (Ω)
+
+# User parameters 75V
+# v_in = 5
+# v_out = 75 
+# i_out = 50e-3 # Max output current (mA)
+# f = 460e3 # Switching frequency (Hz)
+
+# l = 56e-6 # Inductor inductance (H)
+
+# r_sen = 75e-3 # Current sensing resistor (Ω)
+
+# c_out = 22e-6 # Output cap (F)
+# c_esr = 30e-3 # Output cap equivalent series resistance (Ω)
 
 # User parameters 8V
 # v_in = 5
@@ -43,7 +43,7 @@ c_esr = 50e-3 # Output cap equivalent series resistance (Ω)
 # r_sen = 138e-3 # Current sensing resistor (Ω)
 
 # c_out = 22e-6 # Output cap (F)
-# c_esr = 50e-3 # Output cap equivalent series resistance (Ω)
+# c_esr = 30e-3 # Output cap equivalent series resistance (Ω)
 
 
 r_load = v_out / i_out # Load output imedance (Ω)

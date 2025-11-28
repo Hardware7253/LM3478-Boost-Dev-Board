@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Boost Converter Dev Board")
-		(date "2025-11-27")
-		(rev "1")
+		(date "2025-11-28")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
@@ -2105,7 +2105,7 @@
 		)
 		(uuid "65bc918c-8e26-4992-aaf7-8da6a7179d79")
 	)
-	(text "Crossover: 5140 Hz\nPM: 79.3°\nCrossover Slope: -20.07 dB/dec"
+	(text "Crossover: 5140 Hz\nPhase margin: 78.46°\nCrossover Slope: -20.09 dB/dec\nGain Margin: 23.61 dB"
 		(exclude_from_sim no)
 		(at 87.122 139.446 0)
 		(effects
@@ -3393,7 +3393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x9.9"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 101.2952 81.28 0)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C19270543.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C44606504.pdf"
 			(at 100.33 77.47 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C19270543"
+		(property "LCSC PART #" "C44606504"
 			(at 100.33 77.47 0)
 			(effects
 				(font
@@ -4596,7 +4596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x9.9"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 202.8952 85.09 0)
 			(effects
 				(font
@@ -4605,7 +4605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C19270543.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C44606504.pdf"
 			(at 201.93 81.28 0)
 			(effects
 				(font
@@ -4623,7 +4623,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C19270543"
+		(property "LCSC PART #" "C44606504"
 			(at 201.93 81.28 0)
 			(effects
 				(font
